@@ -1,7 +1,4 @@
-import { withContentlayer } from 'next-contentlayer'
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
   webpack(config) {
     config.module.rules.push({
@@ -24,16 +21,7 @@ const nextConfig = {
     })
     return config
   },
-}
-
-module.exports = {
   typescript: {
-    // !! WARN !!
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
-    // !! WARN !!
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: true, // Ignore TypeScript errors during build
   },
-}
-
-export default withContentlayer(nextConfig)
+};
