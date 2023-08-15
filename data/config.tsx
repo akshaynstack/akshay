@@ -27,10 +27,10 @@ const siteConfig = {
         id: 'faq',
         label: 'FAQ',
       },
-      // {
-      //   label: 'Login',
-      //   href: '/login',
-      // },
+      {
+        label: 'Contact',
+        href: 'mailto:princeakshay150@gmail.com',
+      },
       // {
       //   label: 'Sign Up',
       //   href: '/signup',
