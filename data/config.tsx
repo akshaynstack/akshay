@@ -8,7 +8,7 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Saas UI',
+    title: 'AKSHAY',
     description: 'The React component library for startups',
   } as NextSeoProps,
   termsUrl: '#',
@@ -19,49 +19,49 @@ const siteConfig = {
         id: 'features',
         label: 'Features',
       },
-      {
-        id: 'pricing',
-        label: 'Pricing',
-      },
+      // {
+      //   id: 'pricing',
+      //   label: 'Pricing',
+      // },
       {
         id: 'faq',
         label: 'FAQ',
       },
-      {
-        label: 'Login',
-        href: '/login',
-      },
-      {
-        label: 'Sign Up',
-        href: '/signup',
-        variant: 'primary',
-      },
+      // {
+      //   label: 'Login',
+      //   href: '/login',
+      // },
+      // {
+      //   label: 'Sign Up',
+      //   href: '/signup',
+      //   variant: 'primary',
+      // },
     ],
   },
   footer: {
     copyright: (
       <>
         Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        <Link href="https://twitter.com/akshaynceo">AKSHAY N</Link>
       </>
     ),
     links: [
       {
-        href: 'mailto:hello@saas-ui.dev',
+        href: 'mailto:princeakshay150@gmail.com',
         label: 'Contact',
       },
       {
-        href: 'https://twitter.com/saas_js',
+        href: 'https://twitter.com/akshaynceo',
         label: <FaTwitter size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
+        href: 'https://github.com/akshaynstack',
         label: <FaGithub size="14" />,
       },
     ],
   },
   signup: {
-    title: 'Start building with Saas UI',
+    title: 'Start building with AKSHAY',
     features: [
       {
         icon: FiCheck,

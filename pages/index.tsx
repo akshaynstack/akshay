@@ -71,13 +71,13 @@ const Home: NextPage = () => {
       <Box>
         <HeroSection />
 
-        <HighlightsSection />
+        {/* <HighlightsSection /> */}
 
-        <FeaturesSection />
+        {/* <FeaturesSection /> */}
 
-        <TestimonialsSection />
+        {/* <TestimonialsSection />
 
-        <PricingSection />
+        <PricingSection /> */}
 
         <FaqSection />
       </Box>
@@ -103,7 +103,7 @@ const HeroSection: React.FC = () => {
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
+                AKSHAY is a <Em>React component library</Em>
                 <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
                 build intuitive SaaS products with speed.
               </FallInPlace>
@@ -115,10 +115,10 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+                <ButtonLink colorScheme="primary" size="lg" href="mailto:princeakshay150@gmail.com">
+                  Reach Out
                 </ButtonLink>
-                <ButtonLink
+                {/* <ButtonLink
                   size="lg"
                   href="https://demo.saas-ui.dev"
                   variant="outline"
@@ -136,7 +136,7 @@ const HeroSection: React.FC = () => {
                   }
                 >
                   View demo
-                </ButtonLink>
+                </ButtonLink> */}
               </ButtonGroup>
             </FallInPlace>
           </Hero>
